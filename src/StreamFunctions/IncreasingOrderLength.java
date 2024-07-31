@@ -8,7 +8,7 @@ public class IncreasingOrderLength {
 
     public static void main(String[] args) {
 
-        List<String> listOfStrings= Arrays.asList("Java","Python","C#","HTML","Kotlin","C++","COBOL","C");
+        List<String> listOfStrings = Arrays.asList("Java", "Python", "C#", "HTML", "Kotlin", "C++", "COBOL", "C");
 
         listOfStrings.stream().sorted(Comparator.comparing(String::length)).forEach(System.out::println);
 

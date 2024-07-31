@@ -8,17 +8,14 @@ public class NumberStartsWith {
 
     public static void main(String[] args) {
 
-        List<Integer> numbers= Arrays.asList(2,222,234,567,890,432,236,211,22);
+        List<Integer> numbers = Arrays.asList(2, 222, 234, 567, 890, 432, 236, 211, 22);
 
-        List<Integer> numberWith2=numbers.stream()
+        List<Integer> numberWith2 = numbers.stream()
                 .map(e -> String.valueOf(e))
                 .filter(e -> e.startsWith("2"))
                 .map(Integer::valueOf)
                 .collect(Collectors.toList());
         System.out.println(numberWith2);
-
-
-
 
 
     }

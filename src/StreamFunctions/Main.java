@@ -6,8 +6,7 @@ class Main {
 
     // Function to remove duplicate elements This function
     // returns new size of modified array.
-    static int removeDuplicates(int arr[], int n)
-    {
+    static int removeDuplicates(int arr[], int n) {
         // Return, if array is empty or
         // contains a single element
         if (n == 0 || n == 1)
@@ -36,9 +35,8 @@ class Main {
     }
 
     // Driver code
-    public static void main(String[] args)
-    {
-        int arr[] = { 1, 2, 2, 3, 4, 4, 4, 5, 5 };
+    public static void main(String[] args) {
+        int arr[] = {1, 2, 2, 3, 4, 4, 4, 5, 5};
         int n = arr.length;
 
         // removeDuplicates() returns new size of array

@@ -1,15 +1,14 @@
 package OppsConcepts.Abstraction;
 
 
-
-abstract class Mobile{
+abstract class Mobile {
 
     abstract String mobileColor();
 }
 
-class Samsung extends Mobile
-{
+class Samsung extends Mobile {
     String color;
+
     public Samsung(String color) {
         this.color = color;
     }
@@ -21,8 +20,7 @@ class Samsung extends Mobile
 }
 
 
-class Iphone extends Mobile
-{
+class Iphone extends Mobile {
 
     String color;
 
@@ -40,11 +38,11 @@ public class Abstarction {
 
     public static void main(String[] args) {
 
-        Mobile samsung= new Samsung("Black color with additional");
-        Mobile iphone=new Iphone("black color with additional feature of Iphone");
+        Mobile samsung = new Samsung("Black color with additional");
+        Mobile iphone = new Iphone("black color with additional feature of Iphone");
 
-        System.out.println("Samsung mobile  "+samsung.mobileColor());
-        System.out.println("Iphone Mobile  "+iphone.mobileColor());
+        System.out.println("Samsung mobile  " + samsung.mobileColor());
+        System.out.println("Iphone Mobile  " + iphone.mobileColor());
 
 
     }

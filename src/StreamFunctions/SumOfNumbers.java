@@ -9,12 +9,11 @@ public class SumOfNumbers {
     public static void main(String[] args) {
 
 
-        List<Integer> list= Arrays.asList(1,4,5,6);
+        List<Integer> list = Arrays.asList(1, 4, 5, 6);
 
-       Optional<Integer> sum= list.stream().reduce((a, b) -> a+b);
+        Optional<Integer> sum = list.stream().reduce((a, b) -> a + b);
 
-        System.out.println("Sum of numbers: "+sum.get());
-
+        System.out.println("Sum of numbers: " + sum.get());
 
 
     }

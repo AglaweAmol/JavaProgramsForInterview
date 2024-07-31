@@ -1,14 +1,14 @@
 package OppsConcepts.Inheritance;
 
 
-class Mobile{
+class Mobile {
 
-    void price()
-    {
+    void price() {
         System.out.println("Mobile price");
     }
 
 }
+
 class Samsung extends Mobile {
 
     @Override
@@ -17,5 +17,6 @@ class Samsung extends Mobile {
     }
 
 }
+
 public class Inheritance {
 }

@@ -8,17 +8,14 @@ public class LimitNumbers {
 
     public static void main(String[] args) {
 
-        List<Integer> list= Arrays.asList(1,3,10,20,30,15,1,13,1,2,2,10,30,19,3);
+        List<Integer> list = Arrays.asList(1, 3, 10, 20, 30, 15, 1, 13, 1, 2, 2, 10, 30, 19, 3);
 
-        List<Integer> l=list.stream().limit(5).collect(Collectors.toList());
+        List<Integer> l = list.stream().limit(5).collect(Collectors.toList());
         System.out.println(l);
 
-        int sum= list.stream().limit(5).reduce((p,q)-> p+q).get();
+        int sum = list.stream().limit(5).reduce((p, q) -> p + q).get();
 
         System.out.println(sum);
-
-
-
 
 
     }

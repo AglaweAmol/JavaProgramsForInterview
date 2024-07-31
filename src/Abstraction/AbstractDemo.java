@@ -13,6 +13,7 @@ class Dog extends Animal {
         System.out.println("The dog barks.");
     }
 }
+
 public class AbstractDemo {
 
     public static void main(String[] args) {

@@ -1,23 +1,19 @@
 package Abstraction.Interface;
 
 
-
-interface InterfaceA{
+interface InterfaceA {
 
     void doSomething();
 
 }
 
-interface InterfaceB
-{
+interface InterfaceB {
     void doSomething();
 
 }
 
 
-
-class MainClass implements InterfaceB,InterfaceA
-{
+class MainClass implements InterfaceB, InterfaceA {
 
     @Override
     public void doSomething() {
@@ -26,19 +22,16 @@ class MainClass implements InterfaceB,InterfaceA
 }
 
 
-public class InterfaceMainDemo  {
+public class InterfaceMainDemo {
 
     public static void main(String[] args) {
 
 
-        MainClass mainClass= new MainClass();
+        MainClass mainClass = new MainClass();
         mainClass.doSomething();
 
 
-
     }
-
-
 
 
 }

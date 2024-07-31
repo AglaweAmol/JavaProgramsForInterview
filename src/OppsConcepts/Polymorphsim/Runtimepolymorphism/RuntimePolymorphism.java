@@ -1,15 +1,15 @@
 package OppsConcepts.Polymorphsim.Runtimepolymorphism;
 
 
-class Mobile{
+class Mobile {
 
-    void price()
-    {
+    void price() {
         System.out.println("Mobile price");
     }
 
 }
-class Samsung extends Mobile{
+
+class Samsung extends Mobile {
 
     @Override
     void price() {
@@ -18,8 +18,7 @@ class Samsung extends Mobile{
 
 }
 
-class Iphone extends Mobile
-{
+class Iphone extends Mobile {
 
     void price() {
         System.out.println("Iphone mobile price");
@@ -30,8 +29,8 @@ public class RuntimePolymorphism {
 
     public static void main(String[] args) {
 
-        Mobile mySamsung=new Samsung();
-        Mobile myIphone=new Iphone();
+        Mobile mySamsung = new Samsung();
+        Mobile myIphone = new Iphone();
 
         mySamsung.price();
         myIphone.price();

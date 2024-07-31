@@ -8,14 +8,13 @@ public class CharFrequency {
 
     public static void main(String[] args) {
 
-        String inputstring="Java Concept of the day";
+        String inputstring = "Java Concept of the day";
 
-        Map<Character,Long> chharCountMap=
-                inputstring.chars().mapToObj(c -> (char)c)
-                        .collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+        Map<Character, Long> chharCountMap =
+                inputstring.chars().mapToObj(c -> (char) c)
+                        .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
-        System.out.println("Character count to Map "+chharCountMap);
-
+        System.out.println("Character count to Map " + chharCountMap);
 
 
     }

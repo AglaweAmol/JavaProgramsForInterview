@@ -1,7 +1,6 @@
 package Exceptionhandling;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class UncheckedExceptin {
@@ -42,7 +41,7 @@ public class UncheckedExceptin {
 //        System.out.println(str.charAt(10));
 
 
-       //IllegalArgumentException
+        //IllegalArgumentException
 
 //        int result = calculateSquareRoot(-1);
 //        System.out.println("Square root: " + result);
@@ -61,7 +60,6 @@ public class UncheckedExceptin {
 //        Object obj = new Integer(10);
 //        String str = (String) obj; // This line will throw ClassCastException
 //        System.out.println("String: " + str);
-
 
 
         List<String> list = new ArrayList<>();
